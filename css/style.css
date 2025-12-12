@@ -1,0 +1,57 @@
+header{
+    height: 20vh;
+    background-color: aqua;
+}
+.conteudo-header{
+    display: flex;
+    height: 100%;
+    background-color: yellowgreen;
+    align-items: last baseline;
+    padding-left: 90px;
+    margin-right: 90px;
+}
+.logoNike{
+    width: 236px;
+    height: 84px;
+}
+.numeroHeader{
+    font-size: 82px;
+    font-family: Oswald;
+    font-weight: bold;
+    position: absolute;
+    left: 58%;
+}
+.fundoPretoHeader{
+    width: 152px;
+    height: 76px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 55%;
+    margin-bottom: 20px;
+}
+.fundoPretoHeader img{
+    width: 21px;
+    height: 38px;
+}
+.menuBurger{
+    width:90px ;
+    height: 64px;
+    margin-left: 22%;
+}
+main{
+    height: 60vh;
+    background-color: bisque;
+}
+.retangulo-canto{
+    height: 100vh;
+    width: 45vh;
+    position: absolute;
+    left: 77%;
+    top: 0%;
+}
+footer{
+    height: 20vh;
+    background-color: blue;
+}
