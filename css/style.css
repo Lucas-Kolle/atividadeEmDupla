@@ -85,3 +85,8 @@ footer{
     height: 20vh;
     background-color: blue;
 }
+.copyright-text{
+    font-size: 32px;
+    font-family: Oswald;
+    margin-left: 150px;
+}
