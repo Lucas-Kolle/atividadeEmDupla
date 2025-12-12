@@ -1,11 +1,9 @@
 header{
     height: 20vh;
-    background-color: aqua;
 }
 .conteudo-header{
     display: flex;
     height: 100%;
-    background-color: yellowgreen;
     align-items: last baseline;
     padding-left: 90px;
     margin-right: 90px;
@@ -44,9 +42,41 @@ main{
     height: 60vh;
     background-color: bisque;
 }
+.bolinhas{
+    width: 30px;
+    height: 80%;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bolaPreta{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: black;
+}
+.bolaBranca{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preenchimentoBola{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
 .retangulo-canto{
     height: 100vh;
     width: 45vh;
+    background-color:#4AE5D3;
+    z-index: -10;
     position: absolute;
     left: 77%;
     top: 0%;
